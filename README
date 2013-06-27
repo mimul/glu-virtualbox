@@ -1,0 +1,12 @@
+1. Install Virtual Box
+2. Install Vagrant
+3. git clone git@github.com:mimul/glu-virtualbox.git
+4. cd glu-virtualbox
+5. vagrant up --glu-version=5.0.0
+6. vagrant ssh
+7. sudo su -l
+8. cd /var/lib/glu
+9. ./bin/tutorial.sh setup
+10. ./bin/tutorial.sh start
+11. http://localhost:8000/console
+
